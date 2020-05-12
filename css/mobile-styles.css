@@ -1,0 +1,41 @@
+
+@media screen and (max-width: 375px) and (min-width:320px), (min-width:414px){
+    body {
+        padding: 0;
+        /* margin: 0; */
+    }
+   .site-btn1, .site-btn2 {
+      margin-left: 9%;
+      padding: 5%;
+   }
+   .heading-1, .heading-2 {
+       font-size: xx-large;
+   }
+   .site-text {
+       padding: 0;
+   }
+   .card {
+       margin-bottom: 1.5rem;
+   }
+   .site-title2 {
+       margin: 0;
+       padding: 1.3rem;
+   }
+   .section-3 .card-body, .card-title {
+       margin: 0;
+       padding: 0;
+   }
+   .section-3 i {
+      margin: 0;
+      padding: 0;
+   }
+   .section-3 .card-text {
+       margin-left: .6rem;
+   } 
+    .open-book-img {
+        width: 280px;
+    }
+    p {
+        font-size: .955rem;
+    }
+}

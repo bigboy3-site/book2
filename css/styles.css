@@ -28,15 +28,21 @@ body {
 .navbar-brand {
     font-family: Pacifico;
     font-size: 2rem;
-    color:rgba(238, 65, 137, 0.966) !important;
+    color:#ee4189f6 !important;
 }
-
+.sign-in-btn {
+    margin-right: 2rem;
+}
+.site-btn1, .site-btn2 {
+    margin-left: 15%;
+    padding: 1rem;
+ }
 .nav-link {
     font-family: Roboto;
     font-size: 1.1rem;
     font-weight: 600;
     color: black;
-    margin: .5rem;
+    /* margin: .5rem; */
 }
 .nav-link:hover {
     color: #16dddd !important;
@@ -47,7 +53,7 @@ body {
 
 .menu-right-btn {
     font-family: Righteous;
-    color: rgba(238, 65, 137, 0.966);
+    color: #ee4189f6;
     background-color: transparent;
     transition: ease-in all 300ms !important;
     
@@ -109,7 +115,7 @@ body {
     color: #706c6c;
 }
 .row  {
-    /* margin: 5% auto; */
+    margin: 5% auto;
 }
 .card-title {
     font-family: Ubuntu;
