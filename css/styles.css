@@ -34,8 +34,7 @@ body {
     margin-right: 2rem;
 }
 .site-btn1, .site-btn2 {
-    margin-left: 15%;
-    padding: 1rem;
+    margin-left: 5%;
  }
 .nav-link {
     font-family: Roboto;
@@ -72,6 +71,7 @@ body {
     box-shadow: none;
 }
 .site-content {
+    
     background-image: url('../img/img1.jpg');
     background-attachment: fixed;
     background-size: cover;
@@ -133,7 +133,7 @@ body {
 }
 
 .site-title2 {
-    padding: 12.5% 5% 12.5% 60%;
+    padding: 13% 5% 12.5% 60%;
     margin: 5rem auto;
 }
 .heading-3 {

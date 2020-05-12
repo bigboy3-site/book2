@@ -5,8 +5,9 @@
         /* margin: 0; */
     }
    .site-btn1, .site-btn2 {
-      margin-left: 9%;
-      padding: 5%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 4%;
    }
    .heading-1, .heading-2 {
        font-size: xx-large;
@@ -16,10 +17,6 @@
    }
    .card {
        margin-bottom: 1.5rem;
-   }
-   .site-title2 {
-       margin: 0;
-       padding: 1.3rem;
    }
    .section-3 .card-body, .card-title {
        margin: 0;
@@ -38,4 +35,48 @@
     p {
         font-size: .955rem;
     }
+}
+
+@media screen and (max-width:320px) {
+    .site-title2 {
+        padding: 1.3rem;
+    }
+}
+@media screen and (max-width:411px) {
+    .site-title2 {
+        padding: 1.3rem;
+    }
+}
+@media screen and (max-width:425px) {
+    .site-title2 {
+        padding: 1.3rem;
+    }
+}
+@media screen and (max-width:320px) {
+    .site-title2 {
+        padding: 1.3rem;
+    }
+}
+@media screen and (max-width:768px) {
+    .section-1 .card {
+        height: 10%;
+    }
+    .section-3 .card {
+        height: 10%;
+    } 
+
+    .section-3 .card-title {
+        font-size: x-large;
+    }
+    .section-3 .card-text {
+        margin-left: .9rem;
+    }
+    
+    .open-book-img {
+        margin-top: 7rem;
+        width: 110%;
+    }
+    p {
+        font-size: small;
+    }    
 }
