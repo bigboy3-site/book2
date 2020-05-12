@@ -66,7 +66,7 @@ body {
     box-shadow: none;
 }
 .site-content {
-    background-image: url(../img/img1.jpg);
+    background-image: url('../img/img1.jpg');
     background-attachment: fixed;
     background-size: cover;
 }
@@ -121,7 +121,7 @@ body {
     color: #706c6c;
 }
 .site-content2 {
-    background-image: url(../img/img2.jpg);
+    background-image: url('../img/img2.jpg');
     background-attachment: fixed;
     background-size: cover;
 }
